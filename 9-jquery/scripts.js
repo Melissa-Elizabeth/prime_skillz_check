@@ -12,3 +12,8 @@ $('h1').text('My pup is hard-corgi!');
 });
   // 3 - Get rid of (delete) the useless unordered list (ul) by first
   // selecting the h2 nested within its list item.
+$(document).ready(function(){
+	 $("p").append("Page loaded");
+$('h1').text('My pup is hard-corgi!');
+$('h2').parent().prev().prev().remove;
+});
